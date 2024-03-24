@@ -1,0 +1,75 @@
+.ContactSec {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 65rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.ContactHead {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.ContactDesc {
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 80%;
+  margin-bottom: 1rem;
+}
+.ContactForm {
+  width: 90vw;
+  max-width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+.Name,
+.Email,
+.Message {
+  color: white;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.7rem;
+  border-radius: 0.7rem;
+  background-color: rgb(40, 40, 40);
+  padding: 0.5rem 1rem;
+  border-color: #2a85d7;
+}
+.Message {
+  height: 10rem;
+  outline: none;
+}
+.SubmitBtn {
+  background: #2a85d7;
+  padding: 0.5rem 2rem;
+  margin: 2rem;
+  border-radius: 2rem;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  letter-spacing: 0.05rem;
+}
+.Links {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Link {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0.5rem;
+}
+.ContactForm > input:focus,
+.Message:focus {
+  outline: none;
+  border-color: #2a85d7;
+  box-shadow: 0 4px 6px 0 #2a85d7;
+}
